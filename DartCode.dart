@@ -7,8 +7,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: return Scaffold(
+        appBar: AppBar(
+          title("Project")
+        ),
+        body: //Center>Column[Container,Hero[Card,Card],Container>Text]
+      )
+
+
     );
   }
 }
