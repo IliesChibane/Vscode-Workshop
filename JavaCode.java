@@ -46,5 +46,6 @@ class Main {
         // turn off the light by
         // calling method turnOff()
         halogen.turnOff();
+        System.out.println("Hello world");
     }
 }
