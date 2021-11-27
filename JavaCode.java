@@ -3,7 +3,20 @@ class Lamp {
     // stores the value for light
     // true if light is on
     // false if light is off
-    boolean isOn;
+    private boolean isOn;
+
+
+    public boolean isIsOn() {
+        return this.isOn;
+    }
+
+    public boolean getIsOn() {
+        return this.isOn;
+    }
+
+    public void setIsOn(boolean isOn) {
+        this.isOn = isOn;
+    }
 
     // method to turn on the light
     void turnOn() {
